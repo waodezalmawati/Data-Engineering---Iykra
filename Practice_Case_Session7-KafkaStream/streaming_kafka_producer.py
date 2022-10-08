@@ -7,10 +7,10 @@ from datetime import datetime
 # import random
 
 #Twitter Setup
-consumer_key = "WAk05r71QCiV6UoDBEWHB1UII"
-consumer_secret = "Y2ICU8nHLMtNyQtLnV8MnIJStdEgQqJ31MHsYNwJQ8q1G0iDvw"
-access_token = "1410741456352944130-V2uYaPRq1Ymyfe88038rwsMHTkEX37"
-access_token_secret ="UOYOdQUNTWoG5rjNDJOCUv0bbQnVqL07YOocq9N0JHN60"
+consumer_key = "your_consumer_key"
+consumer_secret = "your_consumer_secret"
+access_token = "your_access_token"
+access_token_secret ="your_access_token_secret"
 
 #Create authentication
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
